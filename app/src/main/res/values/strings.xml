@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PackMusic</string>
+    <string name="splash_screen_text">Pack of Wild Animals</string>
+    <string name="four_seasons_image_alt_text">Four Seasons</string>
+    <string name="coal_image_alt_text">Coal</string>
+    <string name="white_thrones_image_alt_text">White Thrones</string>
+    <string name="four_seasons_button_watch_text">Watch Four Seasons Clip</string>
+    <string name="four_seasons_button_pause_text">Pause Four Seasons Clip</string>
+    <string name="coal_button_watch_text">Watch Coal Clip</string>
+    <string name="coal_button_pause_text">Pause Coal Clip</string>
+    <string name="white_thrones_button_watch_text">Watch White Thrones Clip</string>
+    <string name="white_thrones_button_pause_text">Pause White Thrones Clip</string>
+</resources>

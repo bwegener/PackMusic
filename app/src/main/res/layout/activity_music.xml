@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.orangecoastcollege.cs273.bwegener.packmusic.MusicActivity"
+    android:orientation="vertical">
+
+    <VideoView
+        android:id="@+id/coalView"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+    <Button
+        android:id="@+id/coalButton"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:onClick="playMedia"
+        android:text="@string/coal_button_watch_text" />
+
+    <VideoView
+        android:id="@+id/fourSeasonsView"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+    <Button
+        android:id="@+id/fourSeasonsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="playMedia"
+        android:text="@string/four_seasons_button_watch_text" />
+
+    <VideoView
+        android:id="@+id/whiteThronesView"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+    <Button
+        android:id="@+id/whiteThronesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="playMedia"
+        android:text="@string/white_thrones_button_watch_text" />
+
+
+
+</LinearLayout>
